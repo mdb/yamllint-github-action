@@ -1,0 +1,8 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+    steps:
+    - uses: mdb/yamllint-github-action@master
