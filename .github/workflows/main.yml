@@ -4,5 +4,6 @@ on: [push]
 
 jobs:
   build:
+    runs-on: ubuntu-latest
     steps:
     - uses: mdb/yamllint-github-action@master
