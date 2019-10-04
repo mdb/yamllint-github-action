@@ -1,8 +1,8 @@
 FROM clapclapexcitement/node-yamllint:latest
 
 LABEL version="0.0.1"
-LABEL "repository"="http://github.com/mdb/yamllint-github-action"
-LABEL "homepage"="http://github.com/mdb/yamllint-github-action"
+LABEL "repository"="https://github.com/mdb/yamllint-github-action"
+LABEL "homepage"="https://github.com/mdb/yamllint-github-action"
 LABEL "maintainer"="Mike Ball <mikedball@gmail.com>"
 
 LABEL "com.github.actions.name"="yamllint"
